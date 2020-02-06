@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Magi</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div 
+    ondragenter="event.stopPropagation(); event.preventDefault();"
+    ondragover="event.stopPropagation(); event.preventDefault();"
+    ondrop="event.stopPropagation(); event.preventDefault(); onDropOnCanvas(event)">
+        <canvas>
+        </canvas>
+    </div>
+    <img/>
+</body>
+
+</html>
